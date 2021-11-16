@@ -1,9 +1,9 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = ''; // token bot
+const token = '2135541440:AAGv_mF90bAVL63TjJR7B8COXq2J9UbQmmE'; // token bot
 const bot = new TelegramBot(token, { polling: true });
 
 const users = [
-  183904333, // user id
+  1178584608, // user
 ]
 
 let lastLocation = {}
@@ -97,6 +97,6 @@ bot.on('message', (msg) => {
 });
 
 bot.on('polling_error', (error) => {
-  console.log(error.code); 
+  console.log(error.code);  // => 'EFATAL'
 });
 
