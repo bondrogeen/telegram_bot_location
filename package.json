@@ -1,0 +1,31 @@
+{
+  "name": "telegram_bot_location",
+  "version": "1.0.0",
+  "description": "Simple telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondrogeen/telegram_bot_location.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "location"
+  ],
+  "author": "bondrogeen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bondrogeen/telegram_bot_location/issues"
+  },
+  "homepage": "https://github.com/bondrogeen/telegram_bot_location#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
